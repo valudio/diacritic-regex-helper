@@ -1,0 +1,24 @@
+{
+  "name": "diacritic-regex-helper",
+  "version": "1.0.0",
+  "description": "Will parse a string and substitute all the letters that may be written using diacritics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/robertohuertasm/diacritic-regex.git"
+  },
+  "author": "Roberto Huertas",
+  "email": "roberto.huertas@outlook.com",
+  "keywords": [
+    "diacritic-regex",
+    "diacritics"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/robertohuertasm/diacritic-regex/issues"
+  },
+  "homepage": "https://gitlab.com/robertohuertasm/diacritic-regex#README"
+}
