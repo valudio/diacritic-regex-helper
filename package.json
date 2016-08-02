@@ -1,6 +1,6 @@
 {
   "name": "diacritic-regex-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Will parse a string and substitute all the letters that may be written using diacritics.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/robertohuertasm/diacritic-regex.git"
+    "url": "https://github.com/valudio/diacritic-regex-helper"
   },
   "author": "Roberto Huertas",
   "email": "roberto.huertas@outlook.com",
@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/robertohuertasm/diacritic-regex/issues"
+    "url": "https://github.com/valudio/diacritic-regex-helper/issues"
   },
-  "homepage": "https://gitlab.com/robertohuertasm/diacritic-regex#README"
+  "homepage": "https://github.com/valudio/diacritic-regex-helper#README"
 }
