@@ -1,17 +1,17 @@
-# diacritic-regex
+# diacritic-regex-helper
 
 A small node.js module that helps to find strings containing diacritics with regular expressions.
 Useful for accentued search in MongoDB.
 
 #### Installation
 
-`$ npm install diacritic-regex`
+`$ npm install diacritic-regex-helper`
 
 #### Usage
 
 JS :
 ```js
-var diacriticHelper = require("diacritic-regex");
+var diacriticHelper = require("diacritic-regex-helper");
 
 var toFind = "noel";
 var txt = "Vive le Père-Noël !";
