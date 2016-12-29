@@ -14,15 +14,15 @@ var chars = [
   'ZzŹźẐẑƵƶŽžŻżẒẓ'
 ];
 
-function escapeRegExp(string){
+function escapeRegExp(string) {
   return string.replace(/([.*+?^${}()|\[\]\/\\])/g, "\\$1");
 }
 
-var diacritic = function(text){
-  if(!text) return '';
+var diacritic = function(text) {
+  if (!text) return '';
   var result = escapeRegExp(text);
-  for (var char in chars) { // eslint-disable-line
-    result = result.replace(new RegExp('[' + chars[char] + ']', 'gi'), '[' + chars[char] + ']');
+  for (var i = 0; i < chars.length; i++) {
+    result = result.replace(new RegExp('[' + chars[i] + ']', 'gi'), '[' + chars[i] + ']');
   }
   return result;
 };
