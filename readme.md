@@ -3,6 +3,8 @@
 A small node.js module that helps to find strings containing diacritics with regular expressions.
 Useful for accentued search in MongoDB.
 
+[![NPM](https://nodei.co/npm/diacritic-regex-helper.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/diacritic-regex-helper/)
+
 #### Installation
 
 `$ npm install diacritic-regex-helper`
